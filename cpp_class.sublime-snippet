@@ -12,7 +12,10 @@
 thenamespace ${3:thenamespace} {
 class ${1:classname} {
 public:
+  /// Default constructor
 	${1:classname}();
+
+  /// Destructor
 	virtual ~${1:classname}();
 
 private:
