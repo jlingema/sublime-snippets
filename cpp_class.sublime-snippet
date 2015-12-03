@@ -1,9 +1,10 @@
 <snippet>
-	<content><![CDATA[
+	<content><![CDATA[#ifndef ${2/(.*)/\U$1\E/}_${1/(.*)/\U$1\E/}_H
+#define ${2/(.*)/\U$1\E/}_${1/(.*)/\U$1\E/}_H
 
 /** @class ${3:thenamespace}::${1:classname} ${2:package}/${2:package}/${1:classname}.h ${1:classname}.h
  *
- *  Short description of what your class does
+ *  ${5:Class description}
  *
  *  @author ${2:author}
  *  @date ${4:date}
@@ -19,6 +20,7 @@ private:
 };
 }
 
+#endif /* define ${2/(.*)/\U$1\E/}_${1/(.*)/\U$1\E/}_H */
 ]]></content>
 	<tabTrigger>cl</tabTrigger>
 	<scope>source.c++</scope>
