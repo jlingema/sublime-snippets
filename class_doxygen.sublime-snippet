@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[/** @class ${3:thenamespace}::${1:classname} ${2:package}/${2:package}/${1:classname}.h ${1:classname}.h
+ *
+ *  ${5:Class description}
+ *
+ *  @author ${4:author}
+ *  @date ${6:date}
+ */
+
+]]></content>
+	<tabTrigger>dox</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
