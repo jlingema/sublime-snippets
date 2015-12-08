@@ -6,8 +6,8 @@
  *
  *  ${5:Class description}
  *
- *  @author ${2:author}
- *  @date ${4:date}
+ *  @author ${4:author}
+ *  @date ${6:date}
  */
 thenamespace ${3:thenamespace} {
 class ${1:classname} {
